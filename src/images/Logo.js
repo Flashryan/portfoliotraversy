@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 25.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 595.3 841.9" style="enable-background:new 0 0 595.3 841.9;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#E61E45;}
-</style>
+import React from 'react'
+
+export default function Logo(){
+    return (
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+	 viewBox="0 0 595.3 841.9" style="enable-background:new 0 0 595.3 841.9;" >
+
 <g>
 	<path class="st0" d="M429.5,349.6c-5.3,0-9.8-1.4-13.5-4.3c-3.7-2.8-5.6-5.9-5.6-9.2v-9.5c-3.3,6.8-9.2,12.8-17.6,18.1
 		c-8.4,5.3-17.8,7.9-28.1,7.9c-10.3,0-19.8-3.2-28.6-9.5c-8.8-6.4-15.8-14.7-21-25c-5.3-10.3-7.9-21.3-7.9-32.9v-27
@@ -24,3 +24,5 @@
 		c4.4-3.2,7.9-6.7,10.5-10.5c2.6-3.8,3.9-6.8,3.9-9v-32.9c0-6.1-1.5-11.4-4.4-15.8C400.4,238,396.7,234.6,392.2,232.2z"/>
 </g>
 </svg>
+    )
+}

@@ -9,6 +9,11 @@ export default {
       type: 'string',
     },
     {
+      name: 'tileDescription',
+      title: 'Tile Description',
+      type: 'string',
+    },
+    {
       name: 'slug',
       title: 'Slug',
       type: 'slug',
@@ -26,6 +31,14 @@ export default {
     {
       name: 'mainImage',
       title: 'Main image',
+      type: 'image',
+      options: {
+        hotspot: true,
+      },
+    },
+    {
+      name: 'secondImage',
+      title: 'second image',
       type: 'image',
       options: {
         hotspot: true,
@@ -54,6 +67,7 @@ export default {
       title: 'title',
       author: 'author.name',
       media: 'mainImage',
+      media: 'secondImage',
     },
     prepare(selection) {
       const {author} = selection
