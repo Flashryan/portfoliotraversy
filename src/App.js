@@ -12,7 +12,7 @@ import About from './components/About';
 import PortfolioSection from './components/PortfolioSection';
 import { Provider } from "react-redux";
 import store from "./store";
-import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
+import "../public/src/node_modules/react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Modal from './components/Modal'
 import SimpleReactLightbox from 'simple-react-lightbox'
 import DigitalProjects from './components/DigitalProjects';
