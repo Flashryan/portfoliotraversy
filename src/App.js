@@ -12,16 +12,12 @@ import About from './components/About';
 import PortfolioSection from './components/PortfolioSection';
 import { Provider } from "react-redux";
 import store from "./store";
-import "../public/src/node_modules/react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Modal from './components/Modal'
 import SimpleReactLightbox from 'simple-react-lightbox'
 import DigitalProjects from './components/DigitalProjects';
 import SkillsSection from './components/SkillsSection';
 import Footer from './components/Footer';
 import Nav from './components/Nav';
-
-
-
 
 
 function App() {

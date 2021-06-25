@@ -4,7 +4,6 @@ import { useEffect, useState } from 'react';
 import {Link} from 'react-router-dom';
 import {fetchDigital, fetchPrint, fetchUx, fetchMotion} from '../actions/projectActions';
 import {useDispatch, useSelector} from 'react-redux'
-import "../../public/src/node_modules/react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Loader from "react-loader-spinner";
 
 export default function MotionProjects() {
