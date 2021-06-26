@@ -20,12 +20,12 @@ export default function Header(){
   <div><div>
     <div class="bg-white rounded-lg w-72  block p-4 m-auto">
         <div>
-            <span class="font-body text-xs font-light inline-block py-1 px-2 uppercase rounded-full text-white bg-pink-600">
+            <span class="font-body text-xs font-medium inline-block py-1 px-2 uppercase rounded-full text-white bg-crimson">
                 UX/UI
             </span>
         </div>
         <div class=" font-body w-full h-4 bg-gray-200 rounded-full mt-3">
-            <div class="w-4/5 h-full text-center text-xs text-white bg-pink-600 rounded-full">
+            <div class="w-4/5 h-full text-center text-xs text-white bg-crimson rounded-full">
                 90%
             </div>
         </div>
@@ -34,12 +34,12 @@ export default function Header(){
   <div><div>
     <div class="font-body bg-white rounded-lg w-72  block p-4 m-auto">
         <div>
-            <span class="text-xs font-light inline-block py-1 px-2 uppercase rounded-full text-white bg-pink-600">
+            <span class="text-xs font-medium inline-block py-1 px-2 uppercase rounded-full text-white bg-crimson">
                 Design
             </span>
         </div>
         <div class="font-body w-full h-4 bg-gray-200 rounded-full mt-3">
-            <div class="w-4/5 h-full text-center text-xs text-white bg-pink-600 rounded-full">
+            <div class="w-4/5 h-full text-center text-xs text-white bg-crimson rounded-full">
                 90%
             </div>
         </div>
@@ -48,12 +48,12 @@ export default function Header(){
   <div><div>
     <div class="bg-white rounded-lg w-72  block p-4 m-auto">
         <div>
-            <span class="font-body text-xs font-light inline-block py-1 px-2 uppercase rounded-full text-white bg-pink-600">
+            <span class="font-body text-xs font-medium inline-block py-1 px-2 uppercase rounded-full text-white bg-crimson">
             Marketing
             </span>
         </div>
         <div class="w-full h-4 bg-gray-200 rounded-full mt-3">
-            <div class="font-body w-3/4 h-full text-center text-xs text-white bg-pink-600 rounded-full">
+            <div class="font-body w-3/4 h-full text-center text-xs text-white bg-crimson rounded-full">
                 80%
             </div>
         </div>
@@ -62,12 +62,12 @@ export default function Header(){
   <div><div>
     <div class="bg-white rounded-lg w-72  block p-4 m-auto">
         <div>
-            <span class="font-body text-xs font-light inline-block py-1 px-2 uppercase rounded-full text-white bg-pink-600">
-            Developing
+            <span class="font-body text-xs font-medium inline-block py-1 px-2 uppercase rounded-full text-white bg-crimson">
+            Development
             </span>
         </div>
         <div class="font-body w-full h-4 bg-gray-200 rounded-full mt-3">
-            <div class="w-1/2 h-full text-center text-xs text-white bg-pink-600 rounded-full">
+            <div class="w-1/2 h-full text-center text-xs text-white bg-crimson rounded-full">
                 50%
             </div>
         </div>

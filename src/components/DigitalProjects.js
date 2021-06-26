@@ -88,7 +88,7 @@ let images = [{
                             <span className={"absolute top-2 text-white text-lg text-center content-center align-middle ... font-header uppercase font-bold text-opacity-20 text-7xl tileTitle flex justify-center"}>
                             {post.title}
                             </span>
-                            <span className="text-white font-header uppercase font-bold text-3xl flex text-center font-light my-4 flex justify-center leading-tight">
+                            <span className="text-white font-header uppercase font-bold text-3xl flex text-center font-light my-12 flex justify-center leading-tight">
                             {post.tileDescription}
                             </span>
                                 <img src={post.mainImage.asset.url} className="portfolioImage absolute top-0" style={{display: "block", marginLeft: "auto", marginRight:"auto", width:"100%" }} />

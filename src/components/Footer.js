@@ -34,7 +34,7 @@ export default function Footer(){
                             <li className=" md:mr-6 cursor-pointer pt-4 lg:py-0">Instagram</li>
                             <li className=" md:mr-6 cursor-pointer pt-4 lg:py-0">TikTok</li>
                             <li className=" md:mr-6 cursor-pointer pt-4 lg:py-0">Dribble</li>
-                            <li className=" md:mr-6 cursor-pointer pt-4 lg:py-0">facebook</li>
+                            <li className=" md:mr-6 cursor-pointer pt-4 lg:py-0"><a href="https://www.facebook.com/ryan.davies.71">facebook</a></li>
                         </ul>
                     </div>
                     <div className="text-sm text-gray-600 mb-10 f-f-l">

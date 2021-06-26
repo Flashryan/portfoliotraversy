@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {Link} from 'react-scroll'
-import Logo from '../images/logo.svg'
+import Logo from '../images/logo@2x.png'
 
 export default class header extends Component {
     render() {
@@ -8,11 +8,11 @@ export default class header extends Component {
             <ul className={"bg-gray-800"}>
           <div>
     <nav class="bg-gray-800 dark:bg-gray-800 font-body text-gray-300  ">
-        <div class="max-w-7xl mx-auto px-8">
-            <div class="flex items-center justify-between h-16 ">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex items-center justify-between h-36 ">
             <div class="block">
                     <div>
-                      <img src={Logo}/>
+                      <img src={Logo} style={{maxHeight: 100}}/>
                     </div>
                 </div>
                 <div class=" flex items-center">
@@ -30,9 +30,8 @@ export default class header extends Component {
                             <a class="text-white  hover:text-crimson dark:hover:text-white px-3 py-2 rounded-md text-lg font-medium" href="/#">
                             <Link  to="contact" spy={true} smooth={true}>Contact</Link>
                             </a>
-                            <a class="text-crimson  hover:text-crimson dark:hover:text-white px-3 py-2 rounded-md text-2xl font-bold" href="/#">
-                            <Link  to="contact" spy={true} smooth={true}>My CV</Link>
-                            </a>
+                            <a class="text-crimson  hover:text-crimson dark:hover:text-white px-3 py-2 rounded-md text-2xl font-bold" href="../images/RyanDaviesCV.pdf">My CV</a>
+                            {/* <a href="" /><Link  to="contact" spy={true} smooth={true}>My CV</Link></a> */}
                         </div>
                     </div>
                 </div>

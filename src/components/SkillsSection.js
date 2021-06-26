@@ -27,7 +27,7 @@ export default function SkillsSection(){
                 <li>Brochure</li>
                 <li>Flyers</li>
                 <li>Technical Documents</li>
-                <li>Business Cards</li>
+                <li>Brand Identity</li>
             </ul>
         </p>
     </div>
@@ -45,10 +45,10 @@ export default function SkillsSection(){
         </h3>
         <p class="text-lg text-white dark:text-gray-300 py-4 font-body">
             <ul>
-                <li>Web/ App User Interfaces</li>
+                <li>App User Interfaces</li>
                 <li>User Experience</li>
-                <li>Web/ App User Interfaces</li>
-                <li>Web/ App User Interfaces</li>
+                <li>Website UI and Build</li>
+                <li>React, Javascript, SCSS</li>
             </ul>
         </p>
     </div>
@@ -69,7 +69,7 @@ export default function SkillsSection(){
                 <li>Explainer Videos</li>
                 <li>Lower Thirds</li>
                 <li>Marketing videos</li>
-                <li>Marketing videos</li>
+                <li>After Effects</li>
             </ul>
         </p>
     </div>

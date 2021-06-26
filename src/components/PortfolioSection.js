@@ -8,6 +8,7 @@ import { TabGroup } from '@statikly/funk'
 import DigitalProjects from './DigitalProjects'
 import PrintProjects from './PrintProjects'
 import MotionProjects from './MotionProjects'
+import UXUIProjects from './MotionProjects'
 import SimpleReactLightbox from 'simple-react-lightbox'
 
 export default function PortfolioSection(){
@@ -26,7 +27,7 @@ export default function PortfolioSection(){
         <TabGroup.TabList>
           <TabGroup.Tab
             index={0}
-            className="h-12 px-12 transition-colors duration-150"
+            className="h-12 px-12 transition-colors duration-150 font-body"
             activeClassName="bg-black text-white"
             inactiveClassName="text-black"
           >
@@ -34,7 +35,7 @@ export default function PortfolioSection(){
           </TabGroup.Tab>
           <TabGroup.Tab
             index={1}
-            className="h-12 px-12 transition-colors duration-150"
+            className="h-12 px-12 transition-colors duration-150 font-body"
             activeClassName="bg-black text-white"
             inactiveClassName="text-black"
           >
@@ -42,11 +43,19 @@ export default function PortfolioSection(){
           </TabGroup.Tab>
           <TabGroup.Tab
             index={2}
-            className="h-12 px-12 transition-colors duration-150"
+            className="h-12 px-12 transition-colors duration-150 font-body"
             activeClassName="bg-black text-white"
             inactiveClassName="text-black"
           >
             Motion
+          </TabGroup.Tab>
+          <TabGroup.Tab
+            index={3}
+            className="h-12 px-12 transition-colors duration-150 font-body"
+            activeClassName="bg-black text-white"
+            inactiveClassName="text-black"
+          >
+            UX/UI
           </TabGroup.Tab>
         </TabGroup.TabList>
         <TabGroup.TabPanel
@@ -80,6 +89,14 @@ export default function PortfolioSection(){
           inactiveClassName="absolute opacity-0 -translate-x-2"
         >
           <MotionProjects />
+        </TabGroup.TabPanel>
+        <TabGroup.TabPanel
+          index={3}
+          className="w-full p-12 transition-all transform h-48"
+          activeClassName="opacity-100 duration-500 translate-x-0"
+          inactiveClassName="absolute opacity-0 -translate-x-2"
+        >
+          <UXUIProjects />
         </TabGroup.TabPanel>
       </TabGroup>
       </SimpleReactLightbox>
