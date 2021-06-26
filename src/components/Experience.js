@@ -48,7 +48,7 @@ export default function Experience(){
     </div>
     <div class="w-52 mx-auto mt-4 p-4 flex">
         <button type="button" class="py-2 px-4  bg-crimson font-white hover:bg-gray-100 focus:ring-indigo-500 focus:ring-offset-indigo-200  text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
-            Contact Me
+            Contact Me now!
         </button>
     </div>
 </section>
