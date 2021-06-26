@@ -1,6 +1,5 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom';
-import "tailwindcss/tailwind.css"
 
 export default function NavBar() {
     return (
