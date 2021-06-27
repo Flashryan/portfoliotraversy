@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import Logo from '../images/logo@2x.png'
+
 
 export default function Footer(){
     return (
@@ -37,7 +39,10 @@ export default function Footer(){
                             <li className=" md:mr-6 cursor-pointer pt-4 lg:py-0"><a href="https://www.facebook.com/ryan.davies.71">facebook</a></li>
                         </ul>
                     </div>
-                    <div className="text-sm text-gray-600 mb-10 f-f-l">
+                    <div className="text-sm flex flex-col md:items-center  text-gray-600 mb-10 f-f-l">
+                    <div>
+                      <img src={Logo} style={{maxHeight: 50}}/>
+                    </div>
                         <p> © 2021 Ryan Davies. All rights reserved</p>
                     </div>
                 </div>

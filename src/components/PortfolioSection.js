@@ -8,7 +8,7 @@ import { TabGroup } from '@statikly/funk'
 import DigitalProjects from './DigitalProjects'
 import PrintProjects from './PrintProjects'
 import MotionProjects from './MotionProjects'
-import UXUIProjects from './MotionProjects'
+import UXUIProjects from './UXUIProjects'
 import SimpleReactLightbox from 'simple-react-lightbox'
 
 export default function PortfolioSection(){
@@ -17,9 +17,12 @@ export default function PortfolioSection(){
         <main className='background-green-100 p-12 w-full' id="portfolio">
         <section className="container mx-auto w-full text-center w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20" >
         <h2 class="text-3xl font-header font-bold text-black dark:text-white sm:text-4xl">
-            <span class="block uppercase">
+        <div class=" w-full flex flex-wrap justify-center items-center text-center  text-3xl font-header font-bold text-black dark:text-white sm:text-4xl">
+     <span className={"position relative top-0 text-8xl text-gray-200"}>03</span>
+            <span class="position top-2 uppercase grid-col-1">
             Portfolio
             </span>
+        </div>
         </h2>
             <div className="w-full container mx-auto flex flex-col justify-center items-center py-8">
             <SimpleReactLightbox>
@@ -75,12 +78,7 @@ export default function PortfolioSection(){
           <label className="font-semibold mb-1" htmlFor="input">
           <PrintProjects />
           </label>
-          <input
-            id="input"
-            type="text"
-            className="border border-gray-400 px-8 h-12"
-            placeholder="Focus me!"
-          />
+          
         </TabGroup.TabPanel>
         <TabGroup.TabPanel
           index={2}
