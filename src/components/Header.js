@@ -8,7 +8,7 @@ export default function Header(){
     <div class="container mx-auto px-6 flex relative py-16">
         <div class="sm:w-2/3 lg:w-2/5 flex flex-col relative z-20">
             <span class="h-2 bg-gray-800 dark:bg-white mb-12 text-4xl font-header text-crimson">
-                Welcome to the portfolio site of
+                Welcome to the portfolio of
             </span>
             <h1 class="font-header text-6xl sm:text-8xl font-black flex flex-col leading-none dark:text-white text-white ">
             Ryan Davies
