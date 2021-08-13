@@ -30,7 +30,7 @@ export default function Footer(){
 </g>
 </svg>
                 </div>
-                <div className="text-black flex flex-col md:items-center f-f-l pt-3 font-body text-crimson">
+                <div className="text-black flex flex-col text-center md:items-center f-f-l pt-3 font-body text-crimson">
                     <div className="my-6 f-f-l">
                         <ul className="md:flex items-center">
                             <li className=" md:mr-6 cursor-pointer pt-4 lg:py-0">Instagram</li>

@@ -11,14 +11,14 @@ export default function Header(){
             About Me
             </span>
         </div>
-        <p class="text-xl mt-4 max-w-3xl mx-auto text-gray-800 font-body ">
+        <p class="text-xl h-48 max-h-full sm:max-h-32 mt-4 max-w-3xl mx-auto text-gray-800 font-body overflow-scroll">
         I have been involved in design for several years, be it through more traditional graphic design, or later with interaction/ digital design, through formal educational years, a few years freelancing, and also a solid professional thus accumulating in a full, varied and well-balanced understanding of a range design aspects including branding, typography, layout, colour theories, and balance. I am able to execute this knowledge through a variety of disciplines, primarily digital, understanding the user, implementing user-centred design, creating low, medium, and high fidelity wireframes, fleshing these out with colour, type, balance, and repetition, to create an empathetic, and focused design which works well for both user and client. Fundamentally putting the user at the heart of everything I do has become more and more apparent, as vitally we're designing for our end users, nobody wants that red 'X' in the corner to clicked, Ive always thought of the user experience as a joke...if you need to explain it, it cant be very good!
         </p>
         <div class="lg:mt-0 lg:flex-shrink-0">
-            <div class="mt-12 inline-flex rounded-md shadow">
+            <div class="mt-12 container mx-auto rounded-md shadow">
             <div class="grid grid-cols-2 gap-4">
   <div><div>
-    <div class="bg-white rounded-lg w-72  block p-4 m-auto">
+    <div class="bg-white rounded-lg  block p-4 m-auto">
         <div>
             <span class="font-body text-xs font-medium inline-block py-1 px-2 uppercase rounded-full text-white bg-crimson">
                 UX/UI
@@ -32,7 +32,7 @@ export default function Header(){
     </div>
 </div></div>
   <div><div>
-    <div class="font-body bg-white rounded-lg w-72  block p-4 m-auto">
+    <div class="font-body bg-white rounded-lg  block p-4 m-auto">
         <div>
             <span class="text-xs font-medium inline-block py-1 px-2 uppercase rounded-full text-white bg-crimson">
                 Design
@@ -46,7 +46,7 @@ export default function Header(){
     </div>
 </div></div>
   <div><div>
-    <div class="bg-white rounded-lg w-72  block p-4 m-auto">
+    <div class="bg-white rounded-lg  block p-4 m-auto">
         <div>
             <span class="font-body text-xs font-medium inline-block py-1 px-2 uppercase rounded-full text-white bg-crimson">
             Marketing
@@ -60,7 +60,7 @@ export default function Header(){
     </div>
 </div></div>
   <div><div>
-    <div class="bg-white rounded-lg w-72  block p-4 m-auto">
+    <div class="bg-white rounded-lg block p-4 m-auto">
         <div>
             <span class="font-body text-xs font-medium inline-block py-1 px-2 uppercase rounded-full text-white bg-crimson">
             Development

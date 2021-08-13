@@ -14,8 +14,8 @@ import SimpleReactLightbox from 'simple-react-lightbox'
 export default function PortfolioSection(){
 
     return (
-        <main className='background-green-100 p-12 w-full' id="portfolio">
-        <section className="container mx-auto w-full text-center w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20" >
+        <main className='' id="portfolio">
+        <section className="container mx-auto w-full text-center w-full mx-auto px-4 sm:px-6 lg:py-16 lg:px-8 z-20" >
         <h2 class="text-3xl font-header font-bold text-black dark:text-white sm:text-4xl">
         <div class=" w-full flex flex-wrap justify-center items-center text-center  text-3xl font-header font-bold text-black dark:text-white sm:text-4xl">
      <span className={"position relative top-0 text-8xl text-gray-200"}>03</span>
@@ -63,7 +63,7 @@ export default function PortfolioSection(){
         </TabGroup.TabList>
         <TabGroup.TabPanel
           index={0}
-          className="w-full p-12 transition-all transform h-48 h-screen"
+          className="w-full transition-all transform "
           activeClassName="opacity-100 duration-500 translate-x-0"
           inactiveClassName="absolute opacity-0 -translate-x-2"
         >
@@ -71,7 +71,7 @@ export default function PortfolioSection(){
         </TabGroup.TabPanel>
         <TabGroup.TabPanel
           index={1}
-          className="w-full p-12 transition-all transform h-48 flex flex-col h-screen"
+          className="w-full transition-all transform flex flex-col"
           activeClassName="opacity-100 duration-500 translate-x-0"
           inactiveClassName="absolute opacity-0 -translate-x-2"
         >
@@ -82,7 +82,7 @@ export default function PortfolioSection(){
         </TabGroup.TabPanel>
         <TabGroup.TabPanel
           index={2}
-          className="w-full p-12 transition-all transform h-48 h-screen"
+          className="w-full transition-all transform"
           activeClassName="opacity-100 duration-500 translate-x-0"
           inactiveClassName="absolute opacity-0 -translate-x-2"
         >
@@ -90,7 +90,7 @@ export default function PortfolioSection(){
         </TabGroup.TabPanel>
         <TabGroup.TabPanel
           index={3}
-          className="w-full p-12 transition-all transform h-48 h-screen"
+          className="w-full transition-all transform"
           activeClassName="opacity-100 duration-500 translate-x-0"
           inactiveClassName="absolute opacity-0 -translate-x-2"
         >

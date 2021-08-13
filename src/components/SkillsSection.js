@@ -10,7 +10,7 @@ export default function SkillsSection(){
             What Do I Do?
             </span>
         </div>
-    <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-gray-800 mt-6 dark:bg-gray-800">
+    <div class="sm:w-1/3 md:w-1/2 lg:w-1/4 px-4 py-4 bg-gray-800 mt-6 dark:bg-gray-800">
         <div class="flex-shrink-0">
             <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-crimson text-white">
                 <svg width="20" height="20" fill="currentColor" class="h-6 w-6" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -31,7 +31,7 @@ export default function SkillsSection(){
             </ul>
         </p>
     </div>
-    <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-gray-800 mt-6 dark:bg-gray-800">
+    <div class="sm:w-1/3 md:w-1/2 lg:w-1/4 px-4 py-4 bg-gray-800 mt-6 dark:bg-gray-800">
         <div class="flex-shrink-0">
             <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-crimson text-white">
                 <svg width="20" height="20" fill="currentColor" class="h-6 w-6" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -52,7 +52,7 @@ export default function SkillsSection(){
             </ul>
         </p>
     </div>
-    <div class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-gray-800 mt-6 dark:bg-gray-800">
+    <div class="sm:w-1/3 md:w-1/2 lg:w-1/4 px-4 py-4 bg-gray-800 mt-6 dark:bg-gray-800">
         <div class="flex-shrink-0">
             <div class="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-crimson text-white">
                 <svg width="20" height="20" fill="currentColor" class="h-6 w-6" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">

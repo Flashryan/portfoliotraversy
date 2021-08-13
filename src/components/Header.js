@@ -10,7 +10,7 @@ export default function Header(){
             <span class="h-2 bg-gray-800 dark:bg-white mb-12 text-4xl font-header text-crimson">
                 Welcome to the portfolio of
             </span>
-            <h1 class="font-header text-6xl sm:text-8xl font-black flex flex-col leading-none dark:text-white text-white ">
+            <h1 class="font-header mt-8 text-6xl sm:text-8xl font-black flex flex-col leading-none dark:text-white text-white ">
             Ryan Davies
             
             </h1>

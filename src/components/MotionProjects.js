@@ -73,7 +73,7 @@ let images = [{
     return (
         <>
         <SRLWrapper>
-        <main className='background-green-100 min-h-screen p-12 w-full'>
+        <main className='background-green-100 min-h-screen w-full'>
 
             <section className="container mx-auto w-full" >
             
