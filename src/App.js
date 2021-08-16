@@ -18,6 +18,8 @@ import DigitalProjects from './components/DigitalProjects';
 import SkillsSection from './components/SkillsSection';
 import Footer from './components/Footer';
 import Nav from './components/Nav';
+import Menu from './components/Menu';
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 
 
 function App() {
@@ -33,7 +35,7 @@ function App() {
           <Route component={Post} exact path='/post' />
           <Route component={Project} exact path='/project' />
         </Switch>
-        <Nav />
+        <Menu />
         <Header />
         <SkillsSection />
         <About />
